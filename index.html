@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <title>Latk Spec</title>
+        <link rel="stylesheet" href="./css/default.min.css">
+        <script src="./js/highlight.min.js"></script>
+    </head>
+
+    <body>
+        <h1>Lightning Artist Toolkit (Latk) Format Specification</h1>
+<!-- * * * * * * * * * * * * * * * * * * * * * -->
+<pre>
+<code>
+{
+    "creator": "latk.py",
+    "version": 2.9,
+    "grease_pencil": [
+        {
+            "layers": [
+                {
+                    "name": "GP_Layer",
+                    "frames": [
+                        {
+                            "strokes": [
+                                {
+                                    "color": [ 0.20259166, 0.032980658, 0.9169371, 1.0 ],
+                                    "fill_color": [ 0.0, 0.0, 0.0, 1.0 ],
+                                    "brush_name": "optional",
+                                    "brush_creator": "optional",
+                                    "points": [
+                                        {
+                                            "co": [ 1.1935601, 0.98816276, -0.74828625 ], 
+                                            "pressure": 0.50230646, 
+                                            "strength": 0.50914043, 
+                                            "vertex_color": [ 0.0, 0.0, 0.0, 1.0 ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
+</code>
+</pre>
+<!-- * * * * * * * * * * * * * * * * * * * * * -->
+        <script>
+        	"use strict";
+        	hljs.highlightAll();
+        </script>
+    </body>
+
+</html>
